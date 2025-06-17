@@ -1,0 +1,35 @@
+# city <- "Karachi"
+# City_province <- "Sindh"
+# Is_metroplis <- FALSE
+# Population <-20200000
+# Governer <- "Kamran Tasoori"
+# Famousplace <- "Liyari"
+# 
+# cat(" City Name is", city , "\n city province is ", City_province , "\n metroplis is", Is_metroplis
+#     , "\n Total population in " , city , "is" , Population , "\n Governer Name is " , Governer,
+#     "\n famous place is ", Famousplace )
+# 
+# employe_name <- readline("Enter Your Name :")
+# designation <- readline("Enter Your designation :")
+# Department <- readline("Enter Your Department :")
+# Company_Name <- readline("Enter Your Company_Name :")
+# Manager_name <- readline("Enter Your Manager_name :")
+# Salary <- as.numeric(readline("Enter Your Salary :"))
+# Workingday <- as.numeric(readline("Enter Your Workingday :"))
+# NotLeave <- as.logical(readline("Enter Your NotLeave  :"))
+# isperminant <- as.logical(readline("Enter Your isperminant  :"))
+# 
+# print("---------")
+#cat("Employe name is " , employe_name , "\n Designation is",  designation , "\n Department is" , Department,
+    #"\n Comapany name is " , Company_Name , "\n manager name is ", Manager_name , "\n salary is ", Salary,
+    #"\n working day is ", Workingday, "\n leave : " , NotLeave , "\n Are you Perminant :", isperminant)
+
+adult_ticket <- 30
+child_ticket <- 20 
+adult_person <- as.numeric(readline("How many Adult person : "))
+Children <- as.numeric(readline("How many Children : "))
+
+totalprice <- (adult_ticket *adult_person) + (Children + child_ticket)
+cat("Total Price is " , totalprice)
+
+
